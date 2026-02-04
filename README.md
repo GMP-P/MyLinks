@@ -33,9 +33,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+O MyLinks é um agregador de links para usar como cartão de visitas online.
 
 - [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
+
+Acesse o MyLinks através [DESSE LINK](https://gmp-p.github.io/MyLinks/).
 
 ## 🔖 Layout
 
