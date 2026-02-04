@@ -37,13 +37,6 @@ ul li a,
 }
 
 body {
-  /*
-  background-image: url(assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  */
-  /* background: color img repeat position/size*/
   position: relative;
   min-height: 100vh;
   transition:
@@ -96,7 +89,7 @@ body * {
 
 #container {
   width: 100%;
-  max-width: 360px;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
