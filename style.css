@@ -51,7 +51,7 @@ body::after {
   inset: 0;
   background-size: cover;
   background-position: top center;
-  transition: opacity 0.6s ease;
+  transition: opacity 0.5s ease;
   z-index: -1;
 }
 
@@ -145,11 +145,8 @@ body * {
   transform: translateY(-50%);
   box-shadow: 0 0 0 0 transparent;
   transition:
-    transform 0.25s ease,
     box-shadow 0.25s ease,
-    filter 0.25s ease,
-    left 0.3s ease,
-    right 0.3s ease;
+    filter 0.25s ease;
 }
 
 #switch:hover button {
@@ -161,8 +158,11 @@ body * {
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slideToLight 230ms ease-out forwards;
+}
+
+html:not(.light) #switch button {
+  animation: slideToDark 310ms ease-out forwards;
 }
 
 .light #switch:hover button {
@@ -240,4 +240,24 @@ ul li a:hover ion-icon {
 footer {
   padding: 24px 0;
   text-align: center;
+}
+
+/*animations*/
+
+@keyframes slideToLight {
+  from {
+    transform: translate(0, -50%);
+  }
+  to {
+    transform: translate(32px, -50%);
+  }
+}
+
+@keyframes slideToDark {
+  from {
+    transform: translate(32px, -50%);
+  }
+  to {
+    transform: translate(0, -50%);
+  }
 }
