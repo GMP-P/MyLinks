@@ -63,7 +63,7 @@ body::after {
   background-image: url(assets/bg-mobile-light.jpg);
   opacity: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   /* DARK - desktop */
   body::before {
     background-image: url(assets/bg-desktop.jpg);
