@@ -249,13 +249,13 @@ footer {
     transform: translate(0, -50%);
   }
   to {
-    transform: translate(33px, -50%);
+    transform: translate(32px, -50%);
   }
 }
 
 @keyframes slideToDark {
   from {
-    transform: translate(33px, -50%);
+    transform: translate(32px, -50%);
   }
   to {
     transform: translate(0, -50%);
